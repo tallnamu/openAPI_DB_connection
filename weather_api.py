@@ -9,8 +9,8 @@ url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService/getVilageFcst'
 queryString = "?" + urlencode(
    {
   "ServiceKey": unquote("0cEPs8B90DcgA%2FMrsi0Fq442uST94X%2FhIY63Gg6ljMRx4FYn%2BB1vMigFHy5%2BTivGGXq%2BvYVkAPefpEyly4StWg%3D%3D"),
-  "base_date": "20210819",
-  "base_time": "0500",
+  "base_date": "20210819", #기준날짜
+  "base_time": "0500", #기준시간
   "nx": 96,
   "ny": 75,
   "numOfRows": "10",
